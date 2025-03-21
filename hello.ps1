@@ -1,1 +1,1 @@
-﻿write-host "hi"
+Write-Output "hi"

